@@ -24,6 +24,5 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.1.0'
-    // compile 'com.nulab-inc:zxcvbn:1.0.2'
-    compile files('libs/zxcvbn-1.1.1b.jar')
+    compile 'com.nulab-inc:zxcvbn:1.1.1'
 }
